@@ -1,6 +1,6 @@
 const s = "abcabjkjcbb";
 
-// return  longest Substring Without repeating Character
+// return
 function longestSubstringWithoutrepeatingCharacter(s) {
   let n = s.length;
   let maxLen = 0;
