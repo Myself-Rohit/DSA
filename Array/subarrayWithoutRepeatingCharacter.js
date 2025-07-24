@@ -1,6 +1,5 @@
-const s = "abcabjkjcbb";
+const s = "abcabcbb";
 
-// return
 function longestSubstringWithoutrepeatingCharacter(s) {
   let n = s.length;
   let maxLen = 0;
@@ -24,6 +23,6 @@ function longestSubstringWithoutrepeatingCharacter(s) {
 }
 
 console.log("original = ", s);
-const result = longestSubarrayWithoutrepeatingCharacter(s);
+const result = longestSubstringWithoutrepeatingCharacter(s);
 console.log("len = ", result.maxLen);
 console.log("str = ", result.str);
