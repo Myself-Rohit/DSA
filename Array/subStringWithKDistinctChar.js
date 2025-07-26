@@ -33,4 +33,5 @@ function subStringWithAtMostKDistinctChar(s, k) {
 
 console.log("Original = ", s);
 const res = subStringWithAtMostKDistinctChar(s, k);
-console.log("Output = ", res);
+console.log("substring length = ", res.maxLen);
+console.log("longest substring = ", res.str);
